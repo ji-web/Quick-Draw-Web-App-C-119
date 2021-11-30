@@ -1,0 +1,44 @@
+body{
+    background-color:lightgreen;
+ text-align: center;
+}
+
+#sketch_name{
+    color:red;
+    font-size: 30px;
+}
+
+#score{
+    float:left;
+    font-size: 50px;
+}
+
+#timer{
+    float:right;
+    font-size: 50px;
+}
+
+#show_sketch{
+    float:right;
+    height: 50px;
+    
+}
+
+#quick_draw{
+    color: rgb(100, 140, 226);
+}
+
+canvas{
+    border:5px solid blue;
+    border-radius: 20px;
+    animation-name:example;
+    animation-duration:4s;
+    margin-top:50px;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes example{
+    from{box-shadow:1px 1px 38px blue;}
+    to{box-shadow:1px 1px 38px green;}
+}
